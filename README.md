@@ -48,8 +48,9 @@ crop_yield and weather_data are joined using state and year.
 - CTEs
 
 ## Project Folders
-- sql: all SQL files (create tables, insert data, 20 queries, 7 business insights)
-- screenshots: screenshots of query results
+- Data: crop yield, soil and weather datasets
+- SQL_Queries: all SQL files (create tables, insert data, 20 queries, 7 business insights)
+- Screenshots: screenshots of query results
 
 ## How to Run
 1. Open MySQL Workbench.
@@ -61,25 +62,32 @@ crop_yield and weather_data are joined using state and year.
 
 ## 7 Business Insights
 
-1. Most Productive States
+**1. Most Productive States**
+
 Tamil Nadu and Karnataka produce the most. But West Bengal has the highest average yield even with less production.
 
-2. Fertilizer vs Yield
+**2. Fertilizer vs Yield**
+
 Wheat uses the most fertilizer but its yield is not much higher than other crops.
 
-3. States Above National Average
+**3. States Above National Average**
+
 Only 3 states are above the national average yield: West Bengal, Tamil Nadu and Karnataka.
 
-4. Rainfall vs Yield
+**4. Rainfall vs Yield**
+
 Moderate rainfall gives the best yield. High rainfall gives the lowest yield.
 
-5. Soil Quality vs Yield
+**5. Soil Quality vs Yield**
+
 Punjab has the best soil values but one of the lowest yields. So soil alone does not decide yield.
 
-6. Production Trend
+**6. Production Trend**
+
 Total production grew about 16 times from 1997 to 2019.
 
-7. Crop Yield Volatility
+**7. Crop Yield Volatility**
+
 Coconut has very high yield and very high change in yield compared to other crops.
 
 ## Conclusion
@@ -96,6 +104,9 @@ This project shows that crop yield depends on many factors together, not on one 
 Through this project I practiced joins, subqueries, window functions and CTEs on real data, and learned how to turn query results into business insights.
 
 ## Author
-Rohit Kondekar
+
+**Rohit Kondekar**
+
 MSc Statistics | Aspiring Data Analyst
+
 Pune, Maharashtra
